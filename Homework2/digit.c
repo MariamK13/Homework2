@@ -10,8 +10,8 @@ int main()
 	if (sym > 47 && sym < 58) {
 		printf("True\n");
 	} else { 
-		printf("False\n");
-		
+		printf("False. Enter a DIGIT please\n");
+		scanf(" %c", &sym);		
 	}
 	} while (sym > 47 && sym < 58);
 
